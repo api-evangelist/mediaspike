@@ -1,7 +1,28 @@
 aid: mediaspike
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mediaspike.png
 name: MediaSpike
-description: MediaSpike is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MediaSpike was an AdTech startup founded in 2011 by Blake Commagere and headquartered in Mountain
+  View, California, that built a native monetization platform for dynamic, programmatic product
+  placement inside social, mobile, and virtual-reality games. Its API let game developers surface
+  contextual in-game sponsorships and brand placements, and the network reportedly reached roughly 20
+  million unique users at its peak. Backed by Andreessen Horowitz (a16z), Google Ventures, CMEA
+  Capital, 500 Startups, and others (a $5.2M Series A in November 2013), the company ceased operations
+  around June 2017. mediaspike.com no longer hosts the product and currently serves only a "coming
+  soon" placeholder; no live API, developer portal, or discovery surface remains.
+x-status: defunct
+x-ceased: '2017'
 url: https://raw.githubusercontent.com/api-evangelist/mediaspike/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
+- AdTech
+- Advertising
+- Gaming
+- In-Game Advertising
+- Product Placement
+- Mobile Games
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
